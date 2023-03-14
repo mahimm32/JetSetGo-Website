@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="./CSS/mystyle.css" rel="stylesheet">
+</head>
+<body>
+        <!-- Navbar --> 
+        <nav class="navbar navbar-expand-lg navbar-dark py-2 fixed-top" style="background-color:rgba(42, 131, 240, 0.9);">
+            <div class="container">
+              <a href="./index.html" class="navbar-brand">JetSetGo</a>
+      <!-- Adding Toggle button for small screen menu -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navitems">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      <!-- unordered list for nav menu items, ms-auto to align items to the right -->
+              <div class="collapse navbar-collapse" id="navitems">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="./catalouge/catalogue.html" class="nav-link">Holidays</a>
+                  </li>
+                  <li class="nav-item" id="trustpilot">
+                    <a href="https://www.trustpilot.com" class="nav-link">Trust Pilot</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact us</a> 
+                  </li>
+                </ul>
+                <!-- adding Sign Up button -->
+                <button type="button" class="btn btn-danger mx-3">Sign up</button>
+                <!-- Adding Cart Page Link -->
+            <a href="../ShoopingCart/ShoppingCart.html">
+              <div class="cart-icon">
+                <i class="bi bi-bag"></i>
+                <div id="cartAmount" class="cart-item-num">0</div>
+              </div>
+            </a>
+              </div>
+            </div>
+          </nav>
+   
+  <!-- Main content -->
+    <div class="about-section" id="about">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="container-about">
+            <h1>About Us</h1>
+            <p>When it comes to booking a holiday, there are too many websites with fake promises. We are 
+              different - we have designed our getaways with you in mind. All our destinations
+              are all about luxury and adventure.</p>
+            <p>Just have a look at our testomonials below!</p>
+            <p>P.s this website was built using the help of <a href="https://getbootstrap.com">Bootstrap 5 </a></p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- testimonial section -->
+    <div class="review">
+      <h2>What Our Customers Have To Say</h1>
+      <div class="row">
+        <div class="col-sm-5" id="card1">
+          <img src="https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="review">
+          <div class="review1">
+            <h3>Karen</h3>
+          <p>"Great experience and amazing prices, would reccomend to everyone!"</p>
+          </div> 
+        </div>
+        <!-- card 2 -->
+        <div class="col-sm-5" id="card2">
+          <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="review">
+          <div class="review2">
+            <h3>Olivia</h3>
+          <p>"Amazing company and customer service was brilliant."</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    
+  
+</body>
+</html>
